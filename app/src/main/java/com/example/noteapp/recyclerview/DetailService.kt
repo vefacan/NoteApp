@@ -1,4 +1,4 @@
-package com.example.noteapp.listview
+package com.example.noteapp.recyclerview
 
 import com.example.noteapp.models.Note
 

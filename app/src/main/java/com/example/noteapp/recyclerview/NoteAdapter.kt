@@ -1,14 +1,10 @@
-package com.example.noteapp.listview
+package com.example.noteapp.recyclerview
 
-import android.app.Activity
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.noteapp.DetailPage
 import com.example.noteapp.R
 import com.example.noteapp.models.Note
 

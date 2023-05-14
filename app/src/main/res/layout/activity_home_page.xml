@@ -13,11 +13,13 @@
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:hint="Note's Title"
+        android:hint="@string/notesTitle"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
 
     <EditText
         android:id="@+id/editTxtDesc"
@@ -25,11 +27,13 @@
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:hint="Description"
+        android:hint="@string/description"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTxtTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/editTxtTitle"
+        tools:ignore="TextContrastCheck" />
 
     <EditText
         android:id="@+id/editTxtDate"
@@ -37,11 +41,13 @@
         android:layout_height="50dp"
         android:layout_marginTop="14dp"
         android:ems="10"
-        android:hint="Touch For Date"
+        android:hint="@string/touchForDate"
+        android:importantForAutofill="no"
         android:inputType="none"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTxtDesc" />
+        app:layout_constraintTop_toBottomOf="@+id/editTxtDesc"
+        tools:ignore="TextContrastCheck" />
 
     <Button
         android:id="@+id/btnAdd"
@@ -51,7 +57,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="100dp"
         android:background="@drawable/button_shape"
-        android:text="Add"
+        android:text="@string/add"
         android:theme="@style/Theme.NoteApp.ButtonStyle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -71,7 +77,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnAdd" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/img_date"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginEnd="16dp"
@@ -81,7 +87,7 @@
         app:srcCompat="@drawable/calendar_icon" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/img_notebookIcon"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginTop="26dp"
@@ -91,12 +97,12 @@
         app:srcCompat="@drawable/notebook_icon" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/img_pen"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="34dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintBottom_toTopOf="@+id/img_date"
         app:layout_constraintEnd_toStartOf="@+id/editTxtDesc"
         app:srcCompat="@drawable/pen_icon" />
 

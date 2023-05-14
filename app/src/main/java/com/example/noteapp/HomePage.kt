@@ -2,24 +2,16 @@ package com.example.noteapp
 
 import android.app.DatePickerDialog
 import android.content.Intent
-import android.database.sqlite.SQLiteOpenHelper
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.view.MenuItem
 import android.view.MotionEvent
-import android.view.View
 import android.widget.Button
 import android.widget.EditText
-import android.widget.LinearLayout
-import android.widget.ListView
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.noteapp.database.DB
-import com.example.noteapp.listview.DetailService
-import com.example.noteapp.listview.NoteAdapter
-import com.example.noteapp.models.Note
+import com.example.noteapp.recyclerview.NoteAdapter
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -38,6 +30,7 @@ class HomePage : AppCompatActivity() {
         setContentView(R.layout.activity_home_page)
 
         allFindViewById()
+
         recyclerView.layoutManager = LinearLayoutManager(this)
         adapter = NoteAdapter()
         recyclerView.adapter = adapter
@@ -54,7 +47,6 @@ class HomePage : AppCompatActivity() {
                         selectedDate.set(Calendar.YEAR, year)
                         selectedDate.set(Calendar.MONTH, monthOfYear)
                         selectedDate.set(Calendar.DAY_OF_MONTH, dayOfMonth)
-
                         val date = SimpleDateFormat(
                             "dd.MM.yyyy",
                             Locale.getDefault()
@@ -70,16 +62,14 @@ class HomePage : AppCompatActivity() {
             true
         }
 
-        btnAdd.setOnClickListener {addNote(); getNote()}
+        btnAdd.setOnClickListener { addNote(); getNote() }
         adapter?.setOnClickItem {
-
-           val intent = Intent(this, DetailPage::class.java)
-            intent.putExtra("noteNid",it.nid.toString())
-            intent.putExtra("noteTitle",it.title)
-            intent.putExtra("noteDesc",it.detail)
+            val intent = Intent(this, DetailPage::class.java)
+            intent.putExtra("noteNid", it.nid.toString())
+            intent.putExtra("noteTitle", it.title)
+            intent.putExtra("noteDesc", it.detail)
             startActivity(intent)
         }
-
     }
 
     override fun onStart() {
@@ -88,12 +78,11 @@ class HomePage : AppCompatActivity() {
     }
 
     private fun addNote() {
-
         val title = editTxtTitle.text.toString()
         val desc = editTxtDesc.text.toString()
         val date = editTxtDate.text.toString()
 
-        if (editTxtTitle != null && editTxtDesc != null && editTxtDate != null) {
+        if (title.isNotEmpty() && desc.isNotEmpty() && date.isNotEmpty()) {
             val status = db.addNote(title, desc, date)
             if (status > -1) {
                 Toast.makeText(this@HomePage, "Not Başarıyla Eklendi.", Toast.LENGTH_SHORT).show()
@@ -102,11 +91,11 @@ class HomePage : AppCompatActivity() {
                 Toast.makeText(this@HomePage, "Ekleme Başarısız!.", Toast.LENGTH_SHORT).show()
             }
         } else {
-            Toast.makeText(this@HomePage, "Lütfen kutucukları doldurun", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@HomePage, "Lütfen Tüm Kutucukları Doldurun!", Toast.LENGTH_SHORT).show()
         }
     }
 
-    private fun getNote(){
+    private fun getNote() {
         val status = db.allNote()
         adapter?.addItems(status)
     }
@@ -118,7 +107,7 @@ class HomePage : AppCompatActivity() {
         editTxtTitle.requestFocus()
     }
 
-    private fun allFindViewById(){
+    private fun allFindViewById() {
         editTxtTitle = findViewById(R.id.editTxtTitle)
         editTxtDesc = findViewById(R.id.editTxtDesc)
         editTxtDate = findViewById(R.id.editTxtDate)

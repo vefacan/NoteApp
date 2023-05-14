@@ -65,14 +65,4 @@ class DB(context: Context) : SQLiteOpenHelper(context, DBName, null, version) {
         db.close()
         return status
     }
-
-    fun updateNote(title:String, detail: String, nid: Int) : Int {
-        val db = this.writableDatabase
-        val content = ContentValues()
-        content.put("title", title)
-        content.put("detail", detail)
-        val status = db.update("note", content, "nid = $nid", null)
-        db.close()
-        return status
-    }
 }
