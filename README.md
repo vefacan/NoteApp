@@ -29,13 +29,6 @@ This is the 7rd homework I prepared in my "Turkcell - Geleceği Yazanlar" course
 
    <p>
    
-         
-         
-<a href="https://github.com/vefacanbeytorun/AutobiographyApp/blob/master/images/7.png" target="_blank">  
-<img src="https://github.com/vefacanbeytorun/AutobiographyApp/blob/master/images/7.png" width="200" style="max-width:100%;"></a>
-         
-<a href="https://github.com/vefacanbeytorun/AutobiographyApp/blob/master/images/8.png" target="_blank">  
-<img src="https://github.com/vefacanbeytorun/AutobiographyApp/blob/master/images/8.png" width="200" style="max-width:100%;"></a>
      
      
      
