@@ -22,16 +22,21 @@ This is the 7rd homework I prepared in my "Turkcell - Geleceği Yazanlar" course
    
 # Images and Videos from the Project
    
-https://github.com/vefacanbeytorun/NoteApp/assets/107729498/287c346e-bef2-4cfc-b305-644fa7d0f0d6
-   
-   
 <a href="https://github.com/vefacanbeytorun/NoteApp/blob/master/images/1.png" target="_blank">
 <img src="https://github.com/vefacanbeytorun/NoteApp/blob/master/images/1.png" width="200" style="max-width:100%;"></a>
    
+<a href="https://github.com/vefacanbeytorun/NoteApp/blob/master/images/2.png" target="_blank">
+<img src="https://github.com/vefacanbeytorun/NoteApp/blob/master/images/2.png" width="200" style="max-width:100%;"></a>
+   
+<a href="https://github.com/vefacanbeytorun/NoteApp/blob/master/images/3.png" target="_blank">
+<img src="https://github.com/vefacanbeytorun/NoteApp/blob/master/images/3.png" width="200" style="max-width:100%;"></a>
+   
+   <a href="https://github.com/vefacanbeytorun/NoteApp/blob/master/images/4.png" target="_blank">
+<img src="https://github.com/vefacanbeytorun/NoteApp/blob/master/images/4.png" width="200" style="max-width:100%;"></a>
+   
    <p>
   
-
-     
+https://github.com/vefacanbeytorun/NoteApp/assets/107729498/287c346e-bef2-4cfc-b305-644fa7d0f0d6
   
 
 
