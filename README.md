@@ -23,8 +23,8 @@ This is the 7rd homework I prepared in my "Turkcell - Geleceği Yazanlar" course
 # Images and Videos from the Project
    
    
-<a href="https://github.com/vefacanbeytorun/NoteApp/blob/master/images/gif1.webm" target="_blank">
-<img src="https://github.com/vefacanbeytorun/NoteApp/blob/master/images/gif1.webm" width="200" style="max-width:100%;"></a>
+<a href="https://github.com/vefacanbeytorun/NoteApp/blob/master/images/gif1.mp4" target="_blank">
+<img src="https://github.com/vefacanbeytorun/NoteApp/blob/master/images/gif1.mp4" width="200" style="max-width:100%;"></a>
    
 
    <p>
