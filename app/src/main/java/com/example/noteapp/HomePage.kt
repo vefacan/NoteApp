@@ -68,6 +68,7 @@ class HomePage : AppCompatActivity() {
             intent.putExtra("noteNid", it.nid.toString())
             intent.putExtra("noteTitle", it.title)
             intent.putExtra("noteDesc", it.detail)
+            intent.putExtra("noteDate", it.date)
             startActivity(intent)
         }
     }
@@ -85,13 +86,13 @@ class HomePage : AppCompatActivity() {
         if (title.isNotEmpty() && desc.isNotEmpty() && date.isNotEmpty()) {
             val status = db.addNote(title, desc, date)
             if (status > -1) {
-                Toast.makeText(this@HomePage, "Not Başarıyla Eklendi.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@HomePage, "Notes Added Succesfully.", Toast.LENGTH_SHORT).show()
                 clearEditText()
             } else {
-                Toast.makeText(this@HomePage, "Ekleme Başarısız!.", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@HomePage, "Adding Notes Failed....", Toast.LENGTH_SHORT).show()
             }
         } else {
-            Toast.makeText(this@HomePage, "Lütfen Tüm Kutucukları Doldurun!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@HomePage, "Please Fill in All the Boxes!", Toast.LENGTH_SHORT).show()
         }
     }
 

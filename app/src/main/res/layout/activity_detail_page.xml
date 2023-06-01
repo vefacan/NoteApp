@@ -26,14 +26,14 @@
         android:layout_width="0dp"
         android:layout_height="318dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="75dp"
         android:layout_marginEnd="50dp"
         android:fontFamily="@font/opensans"
         android:text="@string/loremIpsum"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/detailTxtTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/detailTxtDate" />
 
     <Button
         android:id="@+id/detailBtnDelete"
@@ -48,4 +48,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/detailTxtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailTxtTitle" />
 </androidx.constraintlayout.widget.ConstraintLayout>

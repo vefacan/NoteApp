@@ -13,8 +13,8 @@ class DetailPage : AppCompatActivity() {
     private lateinit var db: DB
     private lateinit var detailTxtTitle: TextView
     private lateinit var detailTxtDesc: TextView
+    private lateinit var detailTxtDate: TextView
     private lateinit var detailBtnDelete: Button
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,16 +23,19 @@ class DetailPage : AppCompatActivity() {
         detailTxtTitle = findViewById(R.id.detailTxtTitle)
         detailTxtDesc = findViewById(R.id.detailTxtDesc)
         detailBtnDelete = findViewById(R.id.detailBtnDelete)
+        detailTxtDate = findViewById(R.id.detailTxtDate)
 
         db = DB(this)
 
         val nidData = intent.getStringExtra("noteNid")
         val titleData = intent.getStringExtra("noteTitle")
         val descData = intent.getStringExtra("noteDesc")
+        val dateData = intent.getStringExtra("noteDate")
 
 
         detailTxtTitle.setText(titleData)
         detailTxtDesc.setText(descData)
+        detailTxtDate.setText(dateData)
 
         detailBtnDelete.setOnClickListener {
             db.deleteNote(nidData!!.toInt())
