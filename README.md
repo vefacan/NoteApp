@@ -30,6 +30,10 @@ This is the 7rd homework I prepared in my "Turkcell - Geleceği Yazanlar" course
    
      
      
+
+https://github.com/vefacanbeytorun/NoteApp/assets/107729498/abcedbd8-85f1-4a9d-8c2d-4372e99ac5d8
+
+
      
   
 
