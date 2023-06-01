@@ -37,7 +37,9 @@ This is the 7rd homework I prepared in my "Turkcell - Geleceği Yazanlar" course
    <p>
   
 https://github.com/vefacanbeytorun/NoteApp/assets/107729498/287c346e-bef2-4cfc-b305-644fa7d0f0d6
+     
 https://github.com/vefacanbeytorun/NoteApp/assets/107729498/19cb169c-b2eb-44ae-b2ed-65daa97f499b
+     
 https://github.com/vefacanbeytorun/NoteApp/assets/107729498/f6d82084-215e-4a33-b172-51db44ff46ce
 
 
