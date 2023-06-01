@@ -23,13 +23,13 @@ This is the 7rd homework I prepared in my "Turkcell - Geleceği Yazanlar" course
 # Images and Videos from the Project
    
    
-<a href="https://github.com/vefacanbeytorun/NoteApp/blob/master/images/gif1.mp4" target="_blank">
-<img src="https://github.com/vefacanbeytorun/NoteApp/blob/master/images/gif1.mp4" width="200" style="max-width:100%;"></a>
+<a href="[gif1.webm](https://github.com/vefacanbeytorun/NoteApp/assets/107729498/8df63aad-bfb0-4aa1-b21b-d3575e499350)" target="_blank">
+<img src="[gif1.webm](https://github.com/vefacanbeytorun/NoteApp/assets/107729498/8df63aad-bfb0-4aa1-b21b-d3575e499350)" width="200" style="max-width:100%;"></a>
    
-
    <p>
    
      
      
      
   
+
