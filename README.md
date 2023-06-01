@@ -31,18 +31,18 @@ This is the 7rd homework I prepared in my "Turkcell - Geleceği Yazanlar" course
 <a href="https://github.com/vefacanbeytorun/NoteApp/blob/master/images/3.png" target="_blank">
 <img src="https://github.com/vefacanbeytorun/NoteApp/blob/master/images/3.png" width="200" style="max-width:100%;"></a>
    
-   <a href="https://github.com/vefacanbeytorun/NoteApp/blob/master/images/4.png" target="_blank">
+<a href="https://github.com/vefacanbeytorun/NoteApp/blob/master/images/4.png" target="_blank">
 <img src="https://github.com/vefacanbeytorun/NoteApp/blob/master/images/4.png" width="200" style="max-width:100%;"></a>
    
    <p>
-<div style="display: flex;">
-  <video src="https://github.com/vefacanbeytorun/NoteApp/assets/107729498/287c346e-bef2-4cfc-b305-644fa7d0f0d6" controls width="400"></video>
-  
-  <video src="https://github.com/vefacanbeytorun/NoteApp/assets/107729498/19cb169c-b2eb-44ae-b2ed-65daa97f499b4" controls width="400"></video>
-  
-  <video src="https://github.com/vefacanbeytorun/NoteApp/assets/107729498/f6d82084-215e-4a33-b172-51db44ff46ce" controls width="400"></video>
-  
-</div>
+     
+     
+  https://github.com/vefacanbeytorun/NoteApp/assets/107729498/287c346e-bef2-4cfc-b305-644fa7d0f0d6
+     
+  https://github.com/vefacanbeytorun/NoteApp/assets/107729498/19cb169c-b2eb-44ae-b2ed-65daa97f499b4
+     
+  https://github.com/vefacanbeytorun/NoteApp/assets/107729498/f6d82084-215e-4a33-b172-51db44ff46ce
+     
 
 
 
